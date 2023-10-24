@@ -1,0 +1,63 @@
+/* Estilize o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilize as seções de destino */
+.destination {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilize as imagens */
+.destination img {
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+}
+
+/* Estilize os títulos dos destinos */
+.destination h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilize os parágrafos dos destinos */
+.destination p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilize o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilize os links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilize os links no rodapé quando passar o mouse sobre eles */
+footer a:hover {
+    text-decoration: underline;
+}
