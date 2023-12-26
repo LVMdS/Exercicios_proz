@@ -8,11 +8,11 @@ CREATE TABLE ALUNO (
     endereco VARCHAR(200),
     telefone CHAR(14)
 );
-INSERT INTO ALUNO (nome, matricula, email, endereco) VALUES ('João Carlos', '1234', 'Jcarlos@gmail.com', 'Rua 13 de maio', '(11)7825-4489');
+INSERT INTO ALUNO (nome, matricula, email, endereco) VALUES ('xxxx', 'xx', 'xxx', 'xxx', 'xxxx');
 
-INSERT INTO ALUNO (nome, matricula, email, endereco) VALUES ('José Vitor', '2345', 'Jvitor@gmail.com', 'Rua da Saudade', '(11)7825-6589');
+INSERT INTO ALUNO (nome, matricula, email, endereco) VALUES ('zzzz, 'zz', 'zzzzzz', 'zzzzzz', 'zzzzz');
 
-INSERT INTO ALUNO (nome, matricula, email, endereco) VALUES ('Paulo Andre', '3456', 'Pandr@gmail.com', 'Rua do Sol', '(11)7825-4495');
+INSERT INTO ALUNO (nome, matricula, email, endereco) VALUES ('yyyy', 'yyyyy', 'yyy', 'yyyy', 'yyyyy');
 
 CREATE TABLE EMPRESTIMO {
   ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -21,8 +21,8 @@ CREATE TABLE EMPRESTIMO {
   data_devolucao (20);
 }
 
-INSERT INTO EMPRESTIMO (data_hora, matric_Aluno, data_devolucao) VALUES ('12/03/2022 | 15:25', '1234', '15/03/2022');
+INSERT INTO EMPRESTIMO (data_hora, matric_Aluno, data_devolucao) VALUES ('xxxx | xxxx', 'xxxxx', 'xxxx');
 
-INSERT INTO EMPRESTIMO (data_hora, matric_Aluno, data_devolucao) VALUES ('15/03/2022 | 14:32', '3456', '18/03/2022');
+INSERT INTO EMPRESTIMO (data_hora, matric_Aluno, data_devolucao) VALUES ('zzzz | zzzz', 'zzz', 'zzz');
 
-INSERT INTO EMPRESTIMO (data_hora, matric_Aluno, data_devolucao) VALUES ('20/03/2022 | 03:51', '2345', '23/03/2022');
+INSERT INTO EMPRESTIMO (data_hora, matric_Aluno, data_devolucao) VALUES ('yyyy |yyy', 'yyyy', 'yyyyyy');
